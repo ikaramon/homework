@@ -12,7 +12,7 @@
  - Create an Ubuntu LB node, with the IP 192.168.0.11, and a public IP address.
  - Create an Ubuntu WEB node, with the IP 192.168.0.12, and a public IP address.
  - Create an Ubuntu DB node, with the IP 192.168.0.13, and a public IP address.
-# - curl http://<LB-PUBLIC-IP>/Test/ from the workstation returns:
+# - curl (http://<LB-PUBLIC-IP>/Test/) from the workstation returns:
  <html>
  <head><title>RandoMongo</title></head>
  <body>
