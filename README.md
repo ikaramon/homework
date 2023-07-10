@@ -12,13 +12,10 @@
  - Create an Ubuntu LB node, with the IP 192.168.0.11, and a public IP address.
  - Create an Ubuntu WEB node, with the IP 192.168.0.12, and a public IP address.
  - Create an Ubuntu DB node, with the IP 192.168.0.13, and a public IP address.
-# - curl (http://<LB-PUBLIC-IP>/Test/) from the workstation returns:
- <html>
- <head><title>RandoMongo</title></head>
- <body>
-  
-      <h2>Connecting to MongoDB Server <i>(192.168.0.13)</i>...</h2>
-  
-      <h2>Bravo!</h2>
- </body>
- </html>
+# - curl "http://LB-PUBLIC-IP/Test/" from the workstation returns:
+
+   **RandoMongo** <br />
+        <i>**Connecting to MongoDB Server (192.168.0.13) ...**<br />
+   **Bravo!**</i>
+# 
+- Additionally, here you can find the [here](https://skundunotes.com/2023/02/28/securely-integrate-aws-credentials-with-github-actions-using-openid-connect/) Ansible playbook to configure the three-tiered application.
