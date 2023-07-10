@@ -18,4 +18,4 @@
         <i>**Connecting to MongoDB Server (192.168.0.13) ...**<br />
    **Bravo!**</i>
 # 
-- Additionally, here you can find the [here](https://skundunotes.com/2023/02/28/securely-integrate-aws-credentials-with-github-actions-using-openid-connect/) Ansible playbook to configure the three-tiered application.
+- Additionally, here you can find the [here](https://github.com/ikaramon/homework/blob/main/ansible/) Ansible playbook to configure the three-tiered application.
