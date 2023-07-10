@@ -75,7 +75,7 @@ resource "aws_security_group" "aws-web-sg" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
+    cidr_blocks = ["16.171.148.57/32"]
     description = "Allow incoming SSH connections from the MGMT Server"
   }
 
